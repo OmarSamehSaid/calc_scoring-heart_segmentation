@@ -1,0 +1,13 @@
+matplotlib==3.5.2
+numpy==1.24.4
+pydicom==2.3.1
+scipy==1.9.1
+nibabel==5.1.0
+opencv_python==4.7.0.72
+Requests==2.28.2
+SimpleITK==2.3.0
+tensorflow==2.10.0
+tensorflow_addons==0.16.1
+monai==1.2.0
+monailabel==0.7.0
+Flask_Cors==4.0.0

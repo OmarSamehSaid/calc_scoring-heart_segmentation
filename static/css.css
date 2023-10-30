@@ -1,0 +1,123 @@
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      min-height: 100vh;
+     display: flex;
+      flex-direction: column;
+    }
+    body {
+      background: url('../static/medical-white-and-blue-background-wallpaper3.png'); 
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      } 
+    .header {
+      display: flex;
+      flex-direction: column; /* Change flex-direction to column */
+      background-color: #ffffff;
+      padding: 10px 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #0e8eff;
+    }
+    h2 {
+      text-align: center;
+      color: #0e8eff;
+    }
+    .container {
+      max-width: 50%;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      position: relative;
+    }
+    .upload-label {
+      font-weight: bold;
+      color: #0e8eff;
+    }
+    .upload-input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    .upload-button {
+      background-color: #0e8eff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    .upload-button:hover {
+      background-color: #015fb1;
+    }
+    .logo {
+      max-height: 160px;
+    }
+    .uploaded-image,
+    .uploaded-seg {
+      max-width: 50%;
+      margin-top: 20px;
+      float: left;
+    }
+    .image-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .logo-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px; /* Add some spacing between logos and navbar */
+    }
+    .logo-left {
+      margin-left: 20px; /* Adjust margin as needed */
+    }
+    .logo-right {
+      margin-right: 20px; /* Adjust margin as needed */
+    }
+    .navbar {
+      display: block;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      background-color: #ffffff;
+      padding: 10px 0;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .navbar a {
+      text-decoration: none;
+      color: #0e8eff;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .navbar a:hover {
+      background-color: #0e8eff;
+      color: #fff;
+    }
+    .footer {
+    background-color: #ffffff;
+    color: #0e8eff;
+    text-align: center;
+    padding: 0.05%;
+    bottom: 0;
+    width: 99.9%;
+}
+footer {
+  margin-top: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

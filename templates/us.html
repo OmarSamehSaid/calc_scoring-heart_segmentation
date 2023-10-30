@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcium Scoring</title>
+    <link rel="stylesheet" type="text/css" href="../static/css.css">
+</head>
+<body>
+<div class="header">
+  <div class="logo-container">
+    <img src="../static/rology.png" alt="Company Logo" class="logo logo-left">
+    <h1 style="color: #0e8eff;">Calcium Scoring</h1>
+    <img src="../static/queen.png" alt="University Logo" class="logo logo-right">
+  </div>
+  <div class="navbar">
+    <a href="{{ url_for('index') }}">Calcium Scoring</a>
+    <a href="{{ url_for('project') }}">About Project</a>
+    <a href="{{ url_for('us') }}">About Us</a>
+  </div>
+</div>
+  
+<div class="container">
+  <form id="upload-form" enctype="multipart/form-data">
+      <div class="upload-label">Select List of DICOM files:</div>
+      <div id="dicom-seg-container"></div>
+      <h1>US</h1>
+  </form>
+</div>
+<footer>
+  <div class="footer">
+    <p>&copy; 2023 Rology</p>
+  </div></footer>
+
+  <script src="../static/js_list.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sameh/radiology/model/segmentation_unet_heart/train_01/mlruns/901822535028470876/77ed51a4890247dfaf62f1140a896c13/artifacts
+end_time: 1695668193090
+entry_point_name: ''
+experiment_id: '901822535028470876'
+lifecycle_stage: active
+run_id: 77ed51a4890247dfaf62f1140a896c13
+run_name: run_20230925_185522
+run_uuid: 77ed51a4890247dfaf62f1140a896c13
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695668191763
+status: 3
+tags: []
+user_id: unknown
