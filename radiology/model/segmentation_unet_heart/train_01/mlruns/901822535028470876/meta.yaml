@@ -1,6 +1,0 @@
-artifact_location: file:///home/sameh/radiology/model/segmentation_unet_heart/train_01/mlruns/901822535028470876
-creation_time: 1695641313690
-experiment_id: '901822535028470876'
-last_update_time: 1695641313690
-lifecycle_stage: active
-name: segmentation_unet_heart
